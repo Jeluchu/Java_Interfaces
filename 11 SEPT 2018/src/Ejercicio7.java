@@ -17,6 +17,14 @@ public class Ejercicio7 {
 		System.out.println(dir2.getSalario());
 		admin1.setSalario(500);
 		System.out.println(admin1.getSalario());
+		System.out.println(((Directivo)dir1).isSalesiano());
+		
+		admin2.aumento();
+		System.out.println(admin2.getSalario());
+		System.out.println(admin2.getHextra());
+		
+		pro1.tutorizar();
+		System.out.println(pro1.isTutor());
 		
 	}
 

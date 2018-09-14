@@ -37,6 +37,9 @@ public class Profesor extends Empleado {
 				+ asignaturas + ", tutor=" + tutor + "]";
 	}
 
-	
+	public void tutorizar() {
+		if (asignaturas > 5) tutor = true;
+		else tutor = false;
+	}
 	
 }

@@ -40,6 +40,12 @@ public class Administracion extends Empleado {
 	}
 	
 	
+	// 5. AUMENTAR SALARIO CON HORAS EXTRA: 10€ POR HORAS EXTRA
+	public void aumento() {
+		salario += (hextra*10);
+		hextra = 0;
+	}
+	
 	
 	
 }
